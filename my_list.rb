@@ -12,6 +12,11 @@ class Mylist
 end
 
 new_list = Mylist.new(1, 2, 3, 4) # true
+puts 'My Lists are  [1, 2, 3, 4] and dispaly the result besed on the condition!'
+puts "All? (greater than 0): #{new_list.all?(&:positive?)}" # Output: true
+puts "Any? (greater than 5): #{new_list.any? { |e| e > 5 }}" # Output: false
+filtered_element = new_list.filter(&:even?)
+puts "Filtered Item (even numbers): #{filtered_element}"
 
 # Test #all?
 puts(new_list.all? { |e| e < 5 })
