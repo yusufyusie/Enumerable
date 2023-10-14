@@ -13,6 +13,7 @@
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+    - [Install](#install)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -85,7 +86,10 @@ you have to those tools in your local machine.
 
 ### Setup
 
-Clone the project.
+Clone this repository to your desired folder:
+
+- Create a local directory where you can clone the project
+- Clone the project to your directory by running
 
 ```bash
   git clone https://github.com/yusufyusie/Enumerable.git
@@ -105,6 +109,13 @@ In the project directory, you can run:
 
 Runs the app in the terminal.
 
+### Install
+
+Install this project with:
+
+- Ruby
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -122,6 +133,7 @@ Runs the app in the terminal.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **More enumarable features**
 - [ ] **We will implement Select Enumerable**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,9 +160,9 @@ Give a ⭐️ if you like this project!
 
 ## 🔭Acknowledgments <a name="acknowledgements"></a>
 
-- My Family.
-- [Microverse Team](https://www.microverse.org/).
-- [Planet icon](https://www.flaticon.com/free-icons/planet) created by Freepik - [Flaticon](https://www.flaticon.com/)
+- I would like to thank **My Family**.
+- I would like to thank [Microverse Team](https://www.microverse.org/) for the great resources shared.
+- I also would like to thank [Houda Mzari](https://github.com/houdamzari) for all her help with linters setup
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
