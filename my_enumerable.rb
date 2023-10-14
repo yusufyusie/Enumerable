@@ -16,7 +16,7 @@ module MyEnumerable
   def filter
     result = []
     @list.each do |el|
-      result << i if yield el
+      result << el if yield el
     end
     result
   end

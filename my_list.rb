@@ -11,7 +11,7 @@ class Mylist
   end
 end
 
-new_list = Mylist.new([1, 2, 3, 4]) # true
+new_list = Mylist.new(1, 2, 3, 4) # true
 
 # Test #all?
 puts(new_list.all? { |e| e < 5 })
